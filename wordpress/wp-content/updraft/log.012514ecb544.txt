@@ -1,0 +1,209 @@
+0000.000 (0) Opened log file at time: Thu, 05 May 2022 14:52:49 +0000 on http://51.178.183.154:82
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 5.9.3 PHP: 8.0.8 (apache2handler, Linux vps-4fb99371 5.13.0-40-generic #45-Ubuntu SMP Tue Mar 29 14:48:14 UTC 2022 x86_64) MySQL: 8.0.29-0ubuntu0.21.10.1 (max packet size=67108864) WPLANG: fr_FR Server: Apache/2.4.48 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.6M | 4M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 36811.1 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.010 (0) Semaphore (fd, PRefOVHWordpressoptions) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2022-05-05 14:52:49
+0000.021 (0) Semaphore lock (fd) complete
+0000.027 (0) Backup run: resumption=0, nonce=012514ecb544, file_nonce=012514ecb544 begun at=1651762369 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1651762669) in case this run gets aborted
+0000.056 (0) Checking if we have a zip executable available
+0000.060 (0) Creation of backups of directories: beginning
+0000.066 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.108 (0) Total entities for the zip file: 325 directories, 1884 files (0 skipped as non-modified), 38 MB
+0000.114 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.118 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.122 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.126 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.132 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.141 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.145 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.154 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.158 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.160 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 1884 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.141 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1100 files added (on-disk size: 6361.9 KB)
+0002.146 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1200 files added (on-disk size: 6361.9 KB)
+0002.150 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1300 files added (on-disk size: 6361.9 KB)
+0002.154 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1400 files added (on-disk size: 6361.9 KB)
+0002.158 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1500 files added (on-disk size: 6361.9 KB)
+0002.163 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1600 files added (on-disk size: 6361.9 KB)
+0002.167 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1700 files added (on-disk size: 6361.9 KB)
+0002.171 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.tmp: 1800 files added (on-disk size: 6361.9 KB)
+0003.764 (0) Creating zip file manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.list-temp.tmp)
+0003.771 (0) Successfully created zip file manifest (size: 163901)
+0003.934 (0) Created plugins zip (0) - 12822.7 KB in 3.9 s (3317.1 KB/s) (sha1: 1cd41dbf64090a89fc43990b03eb47df4d305742, sha256: 90e54fb71dc95ffca92cbd0d7d15350da5f46ecffdebe3ba36d2250d0dc8a534)
+0003.938 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.961 (0) Total entities for the zip file: 74 directories, 361 files (0 skipped as non-modified), 8.7 MB
+0003.967 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.971 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.976 (0) Zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.301 (0) Creating zip file manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip.list-temp.tmp)
+0004.304 (0) Successfully created zip file manifest (size: 25362)
+0004.397 (0) Created themes zip (0) - 7033.6 KB in 0.5 s (15375.3 KB/s) (sha1: ebca079a45c6718425da094d99517ebe7f611025, sha256: a13874b2366730f9e3d4aa3e77ed7496f639c67c4f625ac283eb7157248405d0)
+0004.402 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.403 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0004.405 (0) finding files: 2022: adding to list (1)
+0004.406 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.411 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0004.415 (0) Did not find any files in the zip: backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip.tmp
+0004.421 (0) Created uploads zip (0) - 0.2 KB in 0 s (18 KB/s) (sha1: c07ad39cbbdd5a03802c509e2931483aa4342f68, sha256: f7da1779e4691242b4a07d4ec2c6ea9309efc265ffd77912c99fa41419c4d2cb)
+0004.425 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.426 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.428 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0004.430 (0) finding files: upgrade: skipping: excluded by options
+0004.431 (0) finding files: languages: adding to list (1)
+0004.433 (0) finding files: plugins: skipping: this is the plugins directory
+0004.434 (0) finding files: index.php: adding to list (2)
+0004.435 (0) finding files: themes: skipping: this is the themes directory
+0004.437 (0) finding files: updraft: skipping: this is the updraft directory
+0004.438 (0) finding files: uploads: skipping: this is the uploads directory
+0004.443 (0) Total entities for the zip file: 3 directories, 73 files (0 skipped as non-modified), 3.3 MB
+0004.796 (0) Creating zip file manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip.list-temp.tmp)
+0004.798 (0) Successfully created zip file manifest (size: 4303)
+0004.817 (0) Created others zip (0) - 949.3 KB in 0.4 s (2519.5 KB/s) (sha1: 61f6f3ebb88f7b1dbaaf1e886c8eece6861e0f60, sha256: 306be5e0d1f3332584307bad38085d39ab140cedeb8e5e60859363c1133b9646)
+0004.826 (0) Saving backup status to database (elements: 8)
+0004.829 (0) Beginning creation of database dump (WordPress DB)
+0004.831 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0004.835 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0004.864 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `PRefOVHWordpressoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = (truncated - 1617 bytes total)
+0004.867 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0004.899 (0) Table PRefOVHWordpressoptions: Total expected rows (via COUNT): 233
+0004.901 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.935 (0) Table PRefOVHWordpressoptions: Rows added in this batch (next record: 279): 229 (uncompressed bytes in this segment=625053) in 0.06 seconds
+0004.945 (0) Table PRefOVHWordpressoptions: finishing file(s) (2, 167 KB)
+0004.970 (0) Table PRefOVHWordpressusers: Total expected rows (via COUNT): 1
+0004.973 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.978 (0) Table PRefOVHWordpressusers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1497) in 0.03 seconds
+0004.986 (0) Table PRefOVHWordpressusers: finishing file(s) (2, 0.6 KB)
+0005.013 (0) Table PRefOVHWordpressusermeta: Total expected rows (via COUNT): 18
+0005.015 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.017 (0) Table PRefOVHWordpressusermeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1829) in 0.02 seconds
+0005.026 (0) Table PRefOVHWordpressusermeta: finishing file(s) (2, 0.9 KB)
+0005.036 (0) Table PRefOVHWordpresscommentmeta: Total expected rows (via COUNT): 0
+0005.040 (0) Table PRefOVHWordpresscommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.01 seconds
+0005.049 (0) Table PRefOVHWordpresscommentmeta: finishing file(s) (2, 0.4 KB)
+0005.072 (0) Table PRefOVHWordpresscomments: Total expected rows (via COUNT): 1
+0005.074 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.078 (0) Table PRefOVHWordpresscomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2293) in 0.02 seconds
+0005.084 (0) Table PRefOVHWordpresscomments: finishing file(s) (2, 0.8 KB)
+0005.093 (0) Table PRefOVHWordpresslinks: Total expected rows (via COUNT): 0
+0005.098 (0) Table PRefOVHWordpresslinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1376) in 0.01 seconds
+0005.106 (0) Table PRefOVHWordpresslinks: finishing file(s) (2, 0.5 KB)
+0005.131 (0) Table PRefOVHWordpresspostmeta: Total expected rows (via COUNT): 2
+0005.133 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.138 (0) Table PRefOVHWordpresspostmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=873) in 0.03 seconds
+0005.146 (0) Table PRefOVHWordpresspostmeta: finishing file(s) (2, 0.4 KB)
+0005.173 (0) Table PRefOVHWordpressposts: Total expected rows (via COUNT): 4
+0005.175 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.177 (0) Table PRefOVHWordpressposts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=11134) in 0.03 seconds
+0005.185 (0) Table PRefOVHWordpressposts: finishing file(s) (2, 3.4 KB)
+0005.192 (0) Table PRefOVHWordpressterm_relationships: Total expected rows (approximate): 1
+0005.196 (0) Table PRefOVHWordpressterm_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=781) in 0.01 seconds
+0005.202 (0) Table PRefOVHWordpressterm_relationships: finishing file(s) (2, 0.4 KB)
+0005.227 (0) Table PRefOVHWordpressterm_taxonomy: Total expected rows (via COUNT): 1
+0005.229 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.233 (0) Table PRefOVHWordpressterm_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1001) in 0.03 seconds
+0005.241 (0) Table PRefOVHWordpressterm_taxonomy: finishing file(s) (2, 0.5 KB)
+0005.252 (0) Table PRefOVHWordpresstermmeta: Total expected rows (via COUNT): 0
+0005.256 (0) Table PRefOVHWordpresstermmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0005.265 (0) Table PRefOVHWordpresstermmeta: finishing file(s) (2, 0.4 KB)
+0005.290 (0) Table PRefOVHWordpressterms: Total expected rows (via COUNT): 1
+0005.292 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.296 (0) Table PRefOVHWordpressterms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=814) in 0.02 seconds
+0005.303 (0) Table PRefOVHWordpressterms: finishing file(s) (2, 0.4 KB)
+0005.304 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wordpress/wp-content/updraft/backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz (line 1884, wp-content/plugins/updraftplus/backup.php)
+0005.306 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressoptions.table.tmpr280.gz (1/12/fopen): adding to final database dump
+0005.309 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressoptions.table.gz (2/12/fopen): adding to final database dump
+0005.311 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressusers.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0005.313 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressusers.table.gz (4/12/fopen): adding to final database dump
+0005.315 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressusermeta.table.tmpr19.gz (5/12/fopen): adding to final database dump
+0005.317 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressusermeta.table.gz (6/12/fopen): adding to final database dump
+0005.318 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresscommentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0005.320 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresscommentmeta.table.gz (8/12/fopen): adding to final database dump
+0005.322 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresscomments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0005.324 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresscomments.table.gz (10/12/fopen): adding to final database dump
+0005.326 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresslinks.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0005.328 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresslinks.table.gz (12/12/fopen): adding to final database dump
+0005.329 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresspostmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0005.331 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresspostmeta.table.gz (14/12/fopen): adding to final database dump
+0005.333 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressposts.table.tmpr5.gz (15/12/fopen): adding to final database dump
+0005.336 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressposts.table.gz (16/12/fopen): adding to final database dump
+0005.338 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterm_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0005.340 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterm_relationships.table.gz (18/12/fopen): adding to final database dump
+0005.341 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterm_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0005.343 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterm_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0005.344 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresstermmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0005.345 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpresstermmeta.table.gz (22/12/fopen): adding to final database dump
+0005.348 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0005.349 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db-table-PRefOVHWordpressterms.table.gz (24/12/fopen): adding to final database dump
+0005.357 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz: finished writing out complete database file (176.1 KB)
+0005.369 (0) Total database tables backed up: 12 (backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz, size: 180416, sha1: eba1cf5103a50e58aa98d5c2e2879957917d217c, sha256: 93e8e970f00879852bf9323ade6ddd9c25cb1d47731affbaf682137180cc52f9)
+0005.377 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.379 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.380 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.382 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.383 (0) backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.384 (0) Saving backup history. Total backup size: 20.5 MB
+0005.388 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.394 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0005.397 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e1c7342aed9be733987c4e773a4a2cca)
+0006.128 (0) Google Drive: creating path: /UpdraftPlus
+0007.270 (0) Google Drive: quota usage: used=117.1 MB, total=15360 MB, available=15242.9 MB
+0007.272 (0) Google Drive: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0007.678 (0) Googledrive chunked upload: 8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.5 / 6)
+0007.862 (0) Googledrive chunked upload: 24 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.5 / 6)
+0008.145 (0) Googledrive chunked upload: 55.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.5 / 6)
+0009.397 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0009.403 (0) Google Drive: OK: Archive backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip uploaded in 2.13 seconds
+0009.405 (0) Recording as successfully uploaded: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip
+0009.410 (0) Deleting local file: backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip: OK
+0009.412 (0) Deleting zip manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-plugins.zip.list.tmp)
+0009.678 (0) Google Drive: quota usage: used=129.6 MB, total=15360 MB, available=15230.4 MB
+0009.680 (0) Google Drive: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0010.207 (0) Googledrive chunked upload: 14.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.5 / 6)
+0010.388 (0) Googledrive chunked upload: 43.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.5 / 6)
+0011.471 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0011.479 (0) Google Drive: OK: Archive backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip uploaded in 1.8 seconds
+0011.481 (0) Recording as successfully uploaded: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip
+0011.487 (0) Deleting local file: backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip: OK
+0011.490 (0) Deleting zip manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-themes.zip.list.tmp)
+0011.769 (0) Google Drive: quota usage: used=136.5 MB, total=15360 MB, available=15223.5 MB
+0011.772 (0) Google Drive: backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0012.833 (0) Googledrive chunked upload: 100 % uploaded
+0012.842 (0) Google Drive: OK: Archive backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip uploaded in 1.07 seconds
+0012.844 (0) Recording as successfully uploaded: backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip
+0012.848 (0) Deleting local file: backup_2022-05-05-1652_chaletcaviar_012514ecb544-uploads.zip: OK
+0013.325 (0) Google Drive: quota usage: used=136.5 MB, total=15360 MB, available=15223.5 MB
+0013.328 (0) Google Drive: backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0014.687 (0) Googledrive chunked upload: 100 % uploaded
+0014.694 (0) Google Drive: OK: Archive backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip uploaded in 1.36 seconds
+0014.698 (0) Recording as successfully uploaded: backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip
+0014.702 (0) Deleting local file: backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip: OK
+0014.705 (0) Deleting zip manifest (backup_2022-05-05-1652_chaletcaviar_012514ecb544-others.zip.list.tmp)
+0015.130 (0) Google Drive: quota usage: used=137.4 MB, total=15360 MB, available=15222.6 MB
+0015.132 (0) Google Drive: backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0016.226 (0) Googledrive chunked upload: 100 % uploaded
+0016.234 (0) Google Drive: OK: Archive backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz uploaded in 1.1 seconds
+0016.236 (0) Recording as successfully uploaded: backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz
+0016.240 (0) Deleting local file: backup_2022-05-05-1652_chaletcaviar_012514ecb544-db.gz: OK
+0016.248 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0016.250 (0) Number of backup sets in history: 1; groups (db): 1
+0016.251 (0) Examining (for databases) backup set with group_id=0, nonce=012514ecb544, datestamp=1651762369 (May 05 2022 14:52:49)
+0016.253 (0) This backup set is the backup set just made, so will not be deleted.
+0016.253 (0) Number of backup sets in history: 1; groups (files): 1
+0016.254 (0) Examining (for files) backup set with nonce=012514ecb544, datestamp=1651762369 (May 05 2022 14:52:49)
+0016.254 (0) This backup set is the backup set just made, so will not be deleted.
+0016.256 (0) This backup set is the backup set just made, so will not be deleted.
+0016.256 (0) This backup set is the backup set just made, so will not be deleted.
+0016.256 (0) This backup set is the backup set just made, so will not be deleted.
+0016.256 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0016.257 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0016.262 (0) Resume backup (012514ecb544, 0): finish run
+0016.265 (0) Decremented the semaphore (fd) by 1
+0016.268 (0) Semaphore (fd) unlocked
+0016.269 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0016.275 (0) The backup apparently succeeded and is now complete
+0016.277 (0) No email will/can be sent - the user has not configured an email address.
+0016.278 (0) La sauvegarde a apparemment réussi et est maintenant terminée

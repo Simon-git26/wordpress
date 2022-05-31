@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"oceanwp","mapped_name":"themelayout"},"child_theme":{"folder_name":"oceanwpperso-oceanwp-child","mapped_name":""},"allowed_paths":["\/var\/www\/html\/wordpress\/wp-content\/themes"],"cache_path":"\/var\/www\/html\/wordpress\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>

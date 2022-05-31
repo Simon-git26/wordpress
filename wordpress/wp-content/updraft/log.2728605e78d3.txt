@@ -1,0 +1,557 @@
+0000.000 (0) Opened log file at time: Tue, 31 May 2022 04:56:22 +0000 on http://51.178.183.154:82
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.0 PHP: 8.0.8 (apache2handler, Linux vps-4fb99371 5.13.0-40-generic #45-Ubuntu SMP Tue Mar 29 14:48:14 UTC 2022 x86_64) MySQL: 8.0.29-0ubuntu0.21.10.2 (max packet size=67108864) WPLANG: fr_FR Server: Apache/2.4.48 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.8M | 14M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 34116.2 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.019 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1653888236, seconds_ago=84746)
+0000.024 (0) Set semaphore last lock (fd) time to 2022-05-31 04:56:22
+0000.025 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=2728605e78d3, file_nonce=2728605e78d3 begun at=1653972982 (0s ago), job type=backup
+0000.033 (0) Scheduling a resumption (1) after 300 seconds (1653973282) in case this run gets aborted
+0000.065 (0) Checking if we have a zip executable available
+0000.069 (0) Creation of backups of directories: beginning
+0000.075 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.228 (0) Total entities for the zip file: 1641 directories, 8658 files (0 skipped as non-modified), 153.1 MB
+0000.236 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.241 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.249 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.252 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.256 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.261 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.265 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.269 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.273 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.274 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.9 MB, 8658 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.368 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1100 files added (on-disk size: 10392.5 KB)
+0002.373 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1200 files added (on-disk size: 10392.5 KB)
+0002.377 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1300 files added (on-disk size: 10392.5 KB)
+0002.381 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1400 files added (on-disk size: 10392.5 KB)
+0002.385 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1500 files added (on-disk size: 10392.5 KB)
+0002.390 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1600 files added (on-disk size: 10392.5 KB)
+0002.394 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1700 files added (on-disk size: 10392.5 KB)
+0002.398 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1800 files added (on-disk size: 10392.5 KB)
+0002.402 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 1900 files added (on-disk size: 10392.5 KB)
+0002.406 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2000 files added (on-disk size: 10392.5 KB)
+0002.408 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4 MB, 8658 files batched, 1001 (2002) added so far); re-opening (prior size: 10392.5 KB)
+0002.935 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2100 files added (on-disk size: 12164.3 KB)
+0002.939 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2200 files added (on-disk size: 12164.3 KB)
+0002.943 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2300 files added (on-disk size: 12164.3 KB)
+0002.947 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2400 files added (on-disk size: 12164.3 KB)
+0002.953 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2500 files added (on-disk size: 12164.3 KB)
+0002.958 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2600 files added (on-disk size: 12164.3 KB)
+0002.962 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2700 files added (on-disk size: 12164.3 KB)
+0002.966 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2800 files added (on-disk size: 12164.3 KB)
+0002.970 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 2900 files added (on-disk size: 12164.3 KB)
+0002.975 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3000 files added (on-disk size: 12164.3 KB)
+0002.976 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.2 MB, 8658 files batched, 1001 (3003) added so far); re-opening (prior size: 12164.3 KB)
+0004.268 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3100 files added (on-disk size: 16569.2 KB)
+0004.273 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3200 files added (on-disk size: 16569.2 KB)
+0004.277 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3300 files added (on-disk size: 16569.2 KB)
+0004.282 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3400 files added (on-disk size: 16569.2 KB)
+0004.287 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3500 files added (on-disk size: 16569.2 KB)
+0004.292 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3600 files added (on-disk size: 16569.2 KB)
+0004.296 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3700 files added (on-disk size: 16569.2 KB)
+0004.301 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3800 files added (on-disk size: 16569.2 KB)
+0004.304 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 3900 files added (on-disk size: 16569.2 KB)
+0004.309 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4000 files added (on-disk size: 16569.2 KB)
+0004.310 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16 MB, 8658 files batched, 1001 (4004) added so far); re-opening (prior size: 16569.2 KB)
+0006.126 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4100 files added (on-disk size: 22144.1 KB)
+0006.131 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4200 files added (on-disk size: 22144.1 KB)
+0006.135 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4300 files added (on-disk size: 22144.1 KB)
+0006.139 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4400 files added (on-disk size: 22144.1 KB)
+0006.144 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4500 files added (on-disk size: 22144.1 KB)
+0006.148 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4600 files added (on-disk size: 22144.1 KB)
+0006.153 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4700 files added (on-disk size: 22144.1 KB)
+0006.157 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4800 files added (on-disk size: 22144.1 KB)
+0006.161 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 4900 files added (on-disk size: 22144.1 KB)
+0006.166 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5000 files added (on-disk size: 22144.1 KB)
+0006.167 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8 MB, 8658 files batched, 1001 (5005) added so far); re-opening (prior size: 22144.1 KB)
+0006.924 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5100 files added (on-disk size: 24838.1 KB)
+0006.930 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5200 files added (on-disk size: 24838.1 KB)
+0006.934 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5300 files added (on-disk size: 24838.1 KB)
+0006.939 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5400 files added (on-disk size: 24838.1 KB)
+0006.944 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5500 files added (on-disk size: 24838.1 KB)
+0006.949 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5600 files added (on-disk size: 24838.1 KB)
+0006.953 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5700 files added (on-disk size: 24838.1 KB)
+0006.958 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5800 files added (on-disk size: 24838.1 KB)
+0006.962 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 8658 files batched, 860 (5865) added so far); re-opening (prior size: 24838.1 KB)
+0009.084 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.8 s, rate: 9052.3 KB/s)
+0009.087 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8299250602722, normalised_time=2.8279982232565, max_time=9.0852398872375, data points known=1, old_max_bytes=26214400, new_max_bytes=55617573)
+0009.117 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 5900 files added (on-disk size: 32938.2 KB)
+0009.122 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6000 files added (on-disk size: 32938.2 KB)
+0009.126 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6100 files added (on-disk size: 32938.2 KB)
+0009.131 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6200 files added (on-disk size: 32938.2 KB)
+0009.136 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6300 files added (on-disk size: 32938.2 KB)
+0009.142 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6400 files added (on-disk size: 32938.2 KB)
+0009.146 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6500 files added (on-disk size: 32938.2 KB)
+0009.151 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6600 files added (on-disk size: 32938.2 KB)
+0009.155 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6700 files added (on-disk size: 32938.2 KB)
+0009.159 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6800 files added (on-disk size: 32938.2 KB)
+0009.163 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.4 MB, 8658 files batched, 1001 (6866) added so far); re-opening (prior size: 32938.2 KB)
+0010.033 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 6900 files added (on-disk size: 35203.3 KB)
+0010.039 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7000 files added (on-disk size: 35203.3 KB)
+0010.044 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7100 files added (on-disk size: 35203.3 KB)
+0010.049 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7200 files added (on-disk size: 35203.3 KB)
+0010.056 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7300 files added (on-disk size: 35203.3 KB)
+0010.063 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7400 files added (on-disk size: 35203.3 KB)
+0010.070 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7500 files added (on-disk size: 35203.3 KB)
+0010.078 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7600 files added (on-disk size: 35203.3 KB)
+0010.086 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7700 files added (on-disk size: 35203.3 KB)
+0010.091 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7800 files added (on-disk size: 35203.3 KB)
+0010.094 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (42 MB, 8658 files batched, 1001 (7867) added so far); re-opening (prior size: 35203.3 KB)
+0013.592 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 7900 files added (on-disk size: 49332.9 KB)
+0013.597 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8000 files added (on-disk size: 49332.9 KB)
+0013.602 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8100 files added (on-disk size: 49332.9 KB)
+0013.607 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8200 files added (on-disk size: 49332.9 KB)
+0013.612 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8300 files added (on-disk size: 49332.9 KB)
+0013.617 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8400 files added (on-disk size: 49332.9 KB)
+0013.622 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8500 files added (on-disk size: 49332.9 KB)
+0013.626 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.tmp: 8600 files added (on-disk size: 49332.9 KB)
+0014.747 (0) Creating zip file manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.list-temp.tmp)
+0014.772 (0) Successfully created zip file manifest (size: 725158)
+0015.434 (0) Created plugins zip (0) - 55623.5 KB in 15.4 s (3622 KB/s) (sha1: 22de8321ffdd5636d531ed1cc6de08c53dd0422a, sha256: 70db0c06dd5940a690e87df1197a8b88ca1e9b8dce77c992967703b5a7290ad9)
+0015.438 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.471 (0) Total entities for the zip file: 139 directories, 779 files (0 skipped as non-modified), 20.2 MB
+0015.477 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.482 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.486 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.490 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.494 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.498 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.503 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0017.028 (0) Creating zip file manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.list-temp.tmp)
+0017.032 (0) Successfully created zip file manifest (size: 54373)
+0017.122 (0) Created themes zip (0) - 6795.7 KB in 1.7 s (4039.8 KB/s) (sha1: 2018a2815f449e147dd7c8036845d1767e18cb91, sha256: 891e92641403ca9ebd713b6a379df4253acfe7dae08d8e2ac6249690f37e6cd3)
+0017.127 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.128 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0017.129 (0) finding files: wph: adding to list (1)
+0017.131 (0) finding files: 2022: adding to list (2)
+0017.132 (0) finding files: wpo-plugins-tables-list.json: adding to list (3)
+0017.134 (0) finding files: template-kits: adding to list (4)
+0017.135 (0) finding files: ithemes-security: adding to list (5)
+0017.137 (0) finding files: elementor: adding to list (6)
+0017.138 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.150 (0) Total entities for the zip file: 13 directories, 448 files (0 skipped as non-modified), 51.9 MB
+0017.154 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.158 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.162 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.166 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0017.854 (0) Creating zip file manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.list-temp.tmp)
+0017.857 (0) Successfully created zip file manifest (size: 30725)
+0018.444 (0) Created uploads zip (0) - 49163.1 KB in 1.3 s (37681.1 KB/s) (sha1: 22f74b6b79676c2f2b016ef98871818512a45d3d, sha256: f0ed14e21304c9afa3aae195cd13ad0b970e1bd0c346b15d9330eb7d07333e8c)
+0018.449 (0) Beginning backup of other directories found in the content directory (index: 0)
+0018.450 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0018.451 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0018.453 (0) finding files: upgrade: skipping: excluded by options
+0018.454 (0) finding files: aiowps_backups: skipping: excluded by options (glob)
+0018.455 (0) finding files: languages: adding to list (1)
+0018.457 (0) finding files: themes.zip: adding to list (2)
+0018.458 (0) finding files: plugins: skipping: this is the plugins directory
+0018.460 (0) finding files: cache: skipping: excluded by options
+0018.461 (0) finding files: index.php: adding to list (3)
+0018.463 (0) finding files: themes: skipping: this is the themes directory
+0018.464 (0) finding files: updraft: skipping: this is the updraft directory
+0018.465 (0) finding files: mu-plugins: adding to list (4)
+0018.466 (0) finding files: uploads: skipping: this is the uploads directory
+0018.474 (0) Total entities for the zip file: 4 directories, 237 files (0 skipped as non-modified), 6.4 MB
+0018.478 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.483 (0) Zip: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.185 (0) Creating zip file manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip.list-temp.tmp)
+0019.187 (0) Successfully created zip file manifest (size: 18480)
+0019.217 (0) Created others zip (0) - 1852.6 KB in 0.7 s (2476.2 KB/s) (sha1: e2e4cc728cf638f93eef3792ccf75ba7ec8d1531, sha256: 973a52ae8c63c9ade924aa4f2c852f49325dfb5533b43d0bf1c214e77d973f59)
+0019.225 (0) Saving backup status to database (elements: 8)
+0019.229 (0) Beginning creation of database dump (WordPress DB)
+0019.231 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0019.235 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0019.266 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `PRefOVHWordpressoptions`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = (truncated - 1618 bytes total)
+0019.269 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0019.297 (0) Table PRefOVHWordpressoptions: Total expected rows (via COUNT): 534
+0019.362 (0) Table PRefOVHWordpressoptions: Rows added in this batch (next record: 5101): 530 (uncompressed bytes in this segment=1642645) in 0.08 seconds
+0019.372 (0) Table PRefOVHWordpressoptions: finishing file(s) (2, 260 KB)
+0019.394 (0) Table PRefOVHWordpressusers: Total expected rows (via COUNT): 4
+0019.397 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.401 (0) Table PRefOVHWordpressusers: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=2072) in 0.02 seconds
+0019.406 (0) Table PRefOVHWordpressusers: finishing file(s) (2, 0.9 KB)
+0019.432 (0) Table PRefOVHWordpressusermeta: Total expected rows (via COUNT): 147
+0019.433 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.438 (0) Table PRefOVHWordpressusermeta: Rows added in this batch (next record: 186): 147 (uncompressed bytes in this segment=20372) in 0.03 seconds
+0019.445 (0) Table PRefOVHWordpressusermeta: finishing file(s) (2, 5 KB)
+0019.473 (0) Table PRefOVHWordpresscommentmeta: Total expected rows (via COUNT): 2
+0019.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.479 (0) Table PRefOVHWordpresscommentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=906) in 0.03 seconds
+0019.488 (0) Table PRefOVHWordpresscommentmeta: finishing file(s) (2, 0.5 KB)
+0019.507 (0) Table PRefOVHWordpresscomments: Total expected rows (via COUNT): 1
+0019.509 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.511 (0) Table PRefOVHWordpresscomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2304) in 0.02 seconds
+0019.517 (0) Table PRefOVHWordpresscomments: finishing file(s) (2, 0.8 KB)
+0019.524 (0) Table PRefOVHWordpressitsec_bans: Total expected rows (via COUNT): 0
+0019.529 (0) Table PRefOVHWordpressitsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=950) in 0.01 seconds
+0019.537 (0) Table PRefOVHWordpressitsec_bans: finishing file(s) (2, 0.4 KB)
+0019.561 (0) Table PRefOVHWordpressitsec_dashboard_events: Total expected rows (via COUNT): 22
+0019.563 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.568 (0) Table PRefOVHWordpressitsec_dashboard_events: Rows added in this batch (next record: 106): 22 (uncompressed bytes in this segment=2239) in 0.03 seconds
+0019.575 (0) Table PRefOVHWordpressitsec_dashboard_events: finishing file(s) (2, 0.7 KB)
+0019.583 (0) Table PRefOVHWordpressitsec_distributed_storage: Total expected rows (via COUNT): 0
+0019.587 (0) Table PRefOVHWordpressitsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=985) in 0.01 seconds
+0019.596 (0) Table PRefOVHWordpressitsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0019.605 (0) Table PRefOVHWordpressitsec_fingerprints: Total expected rows (via COUNT): 0
+0019.606 (0) Table PRefOVHWordpressitsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.01 seconds
+0019.614 (0) Table PRefOVHWordpressitsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0019.620 (0) Table PRefOVHWordpressitsec_geolocation_cache: Total expected rows (via COUNT): 0
+0019.622 (0) Table PRefOVHWordpressitsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1011) in 0.00 seconds
+0019.628 (0) Table PRefOVHWordpressitsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0019.650 (0) Table PRefOVHWordpressitsec_lockouts: Total expected rows (via COUNT): 5
+0019.652 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.655 (0) Table PRefOVHWordpressitsec_lockouts: Rows added in this batch (next record: 11): 5 (uncompressed bytes in this segment=4338) in 0.02 seconds
+0019.662 (0) Table PRefOVHWordpressitsec_lockouts: finishing file(s) (2, 0.9 KB)
+0019.689 (0) Table PRefOVHWordpressitsec_logs: Total expected rows (via COUNT): 150
+0019.690 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.727 (0) Table PRefOVHWordpressitsec_logs: Rows added in this batch (next record: 150): 150 (uncompressed bytes in this segment=1249820) in 0.06 seconds
+0019.736 (0) Table PRefOVHWordpressitsec_logs: finishing file(s) (2, 120.4 KB)
+0019.743 (0) Table PRefOVHWordpressitsec_mutexes: Total expected rows (via COUNT): 0
+0019.747 (0) Table PRefOVHWordpressitsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=687) in 0.01 seconds
+0019.752 (0) Table PRefOVHWordpressitsec_mutexes: finishing file(s) (2, 0.4 KB)
+0019.758 (0) Table PRefOVHWordpressitsec_opaque_tokens: Total expected rows (approximate): 0
+0019.760 (0) Table PRefOVHWordpressitsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=845) in 0.00 seconds
+0019.765 (0) Table PRefOVHWordpressitsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0019.790 (0) Table PRefOVHWordpressitsec_temp: Total expected rows (via COUNT): 20
+0019.792 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0019.795 (0) Table PRefOVHWordpressitsec_temp: Rows added in this batch (next record: 144): 20 (uncompressed bytes in this segment=2911) in 0.03 seconds
+0019.801 (0) Table PRefOVHWordpressitsec_temp: finishing file(s) (2, 0.7 KB)
+0019.811 (0) Table PRefOVHWordpressitsec_user_groups: Total expected rows (approximate): 5
+0019.816 (0) Table PRefOVHWordpressitsec_user_groups: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=1561) in 0.01 seconds
+0019.821 (0) Table PRefOVHWordpressitsec_user_groups: finishing file(s) (2, 0.7 KB)
+0019.829 (0) Table PRefOVHWordpresslinks: Total expected rows (via COUNT): 0
+0019.831 (0) Table PRefOVHWordpresslinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1376) in 0.00 seconds
+0019.837 (0) Table PRefOVHWordpresslinks: finishing file(s) (2, 0.5 KB)
+0019.852 (0) Table PRefOVHWordpresspostmeta: Total expected rows (approximate): 4912
+0020.374 (0) Table PRefOVHWordpresspostmeta: Rows added in this batch (next record: 6595): 5153 (uncompressed bytes in this segment=19713338) in 0.53 seconds
+0020.382 (0) Table PRefOVHWordpresspostmeta: finishing file(s) (2, 1909.1 KB)
+0020.408 (0) Table PRefOVHWordpressposts: Total expected rows (via COUNT): 813
+0020.470 (0) Table PRefOVHWordpressposts: Rows added in this batch (next record: 892): 813 (uncompressed bytes in this segment=3385873) in 0.08 seconds
+0020.479 (0) Table PRefOVHWordpressposts: finishing file(s) (2, 82 KB)
+0020.485 (0) Table PRefOVHWordpressterm_relationships: Total expected rows (approximate): 133
+0020.489 (0) Table PRefOVHWordpressterm_relationships: Rows added in this batch (next record: 100000): 133 (uncompressed bytes in this segment=2746) in 0.01 seconds
+0020.494 (0) Table PRefOVHWordpressterm_relationships: finishing file(s) (2, 0.7 KB)
+0020.520 (0) Table PRefOVHWordpressterm_taxonomy: Total expected rows (via COUNT): 27
+0020.521 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.526 (0) Table PRefOVHWordpressterm_taxonomy: Rows added in this batch (next record: 37): 27 (uncompressed bytes in this segment=1929) in 0.03 seconds
+0020.534 (0) Table PRefOVHWordpressterm_taxonomy: finishing file(s) (2, 0.7 KB)
+0020.564 (0) Table PRefOVHWordpresstermmeta: Total expected rows (via COUNT): 26
+0020.566 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.568 (0) Table PRefOVHWordpresstermmeta: Rows added in this batch (next record: 26): 26 (uncompressed bytes in this segment=1980) in 0.03 seconds
+0020.577 (0) Table PRefOVHWordpresstermmeta: finishing file(s) (2, 0.9 KB)
+0020.601 (0) Table PRefOVHWordpressterms: Total expected rows (via COUNT): 27
+0020.603 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.605 (0) Table PRefOVHWordpressterms: Rows added in this batch (next record: 37): 27 (uncompressed bytes in this segment=2022) in 0.02 seconds
+0020.611 (0) Table PRefOVHWordpressterms: finishing file(s) (2, 0.9 KB)
+0020.634 (0) Table PRefOVHWordpresswps_cleaner: Total expected rows (via COUNT): 22
+0020.637 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.641 (0) Table PRefOVHWordpresswps_cleaner: Rows added in this batch (next record: 4707): 22 (uncompressed bytes in this segment=1682) in 0.03 seconds
+0020.647 (0) Table PRefOVHWordpresswps_cleaner: finishing file(s) (2, 0.6 KB)
+0020.654 (0) Table PRefOVHWordpresswps_cleaner_queue: Total expected rows (via COUNT): 0
+0020.659 (0) Table PRefOVHWordpresswps_cleaner_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=603) in 0.01 seconds
+0020.665 (0) Table PRefOVHWordpresswps_cleaner_queue: finishing file(s) (2, 0.3 KB)
+0020.672 (0) Table PRefOVHWordpressaddress_components: Total expected rows (via COUNT): 0
+0020.675 (0) Table PRefOVHWordpressaddress_components: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.00 seconds
+0020.681 (0) Table PRefOVHWordpressaddress_components: finishing file(s) (2, 0.4 KB)
+0020.688 (0) Table PRefOVHWordpressaiowps_debug_log: Total expected rows (via COUNT): 0
+0020.690 (0) Table PRefOVHWordpressaiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.00 seconds
+0020.696 (0) Table PRefOVHWordpressaiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0020.706 (0) Table PRefOVHWordpressaiowps_events: Total expected rows (via COUNT): 0
+0020.708 (0) Table PRefOVHWordpressaiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1089) in 0.01 seconds
+0020.716 (0) Table PRefOVHWordpressaiowps_events: finishing file(s) (2, 0.4 KB)
+0020.738 (0) Table PRefOVHWordpressaiowps_failed_logins: Total expected rows (via COUNT): 72
+0020.741 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.745 (0) Table PRefOVHWordpressaiowps_failed_logins: Rows added in this batch (next record: 72): 72 (uncompressed bytes in this segment=5155) in 0.02 seconds
+0020.752 (0) Table PRefOVHWordpressaiowps_failed_logins: finishing file(s) (2, 1.1 KB)
+0020.761 (0) Table PRefOVHWordpressaiowps_global_meta: Total expected rows (via COUNT): 0
+0020.766 (0) Table PRefOVHWordpressaiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0020.773 (0) Table PRefOVHWordpressaiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0020.798 (0) Table PRefOVHWordpressaiowps_login_activity: Total expected rows (via COUNT): 33
+0020.800 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.805 (0) Table PRefOVHWordpressaiowps_login_activity: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=4314) in 0.03 seconds
+0020.811 (0) Table PRefOVHWordpressaiowps_login_activity: finishing file(s) (2, 0.9 KB)
+0020.818 (0) Table PRefOVHWordpressaiowps_login_lockdown: Total expected rows (via COUNT): 0
+0020.821 (0) Table PRefOVHWordpressaiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1022) in 0.01 seconds
+0020.827 (0) Table PRefOVHWordpressaiowps_login_lockdown: finishing file(s) (2, 0.4 KB)
+0020.834 (0) Table PRefOVHWordpressaiowps_permanent_block: Total expected rows (via COUNT): 0
+0020.836 (0) Table PRefOVHWordpressaiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=907) in 0.00 seconds
+0020.842 (0) Table PRefOVHWordpressaiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0020.848 (0) Table PRefOVHWordpresse_events: Total expected rows (via COUNT): 0
+0020.850 (0) Table PRefOVHWordpresse_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=603) in 0.00 seconds
+0020.856 (0) Table PRefOVHWordpresse_events: finishing file(s) (2, 0.4 KB)
+0020.864 (0) Table PRefOVHWordpressere_save_search: Total expected rows (via COUNT): 0
+0020.866 (0) Table PRefOVHWordpressere_save_search: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.01 seconds
+0020.874 (0) Table PRefOVHWordpressere_save_search: finishing file(s) (2, 0.4 KB)
+0020.880 (0) Table PRefOVHWordpressfbuilder_fields: Total expected rows (via COUNT): 0
+0020.882 (0) Table PRefOVHWordpressfbuilder_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1271) in 0.00 seconds
+0020.888 (0) Table PRefOVHWordpressfbuilder_fields: finishing file(s) (2, 0.5 KB)
+0020.911 (0) Table PRefOVHWordpressfbuilder_fields_order: Total expected rows (via COUNT): 11
+0020.913 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.916 (0) Table PRefOVHWordpressfbuilder_fields_order: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1149) in 0.02 seconds
+0020.922 (0) Table PRefOVHWordpressfbuilder_fields_order: finishing file(s) (2, 0.5 KB)
+0020.928 (0) Table PRefOVHWordpressfbuilder_sections: Total expected rows (via COUNT): 0
+0020.932 (0) Table PRefOVHWordpressfbuilder_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=737) in 0.01 seconds
+0020.938 (0) Table PRefOVHWordpressfbuilder_sections: finishing file(s) (2, 0.4 KB)
+0020.944 (0) Table PRefOVHWordpressfbuilder_sections_order: Total expected rows (via COUNT): 0
+0020.945 (0) Table PRefOVHWordpressfbuilder_sections_order: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.00 seconds
+0020.951 (0) Table PRefOVHWordpressfbuilder_sections_order: finishing file(s) (2, 0.4 KB)
+0020.973 (0) Table PRefOVHWordpressfrm_fields: Total expected rows (via COUNT): 9
+0020.975 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0020.979 (0) Table PRefOVHWordpressfrm_fields: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=10562) in 0.02 seconds
+0020.986 (0) Table PRefOVHWordpressfrm_fields: finishing file(s) (2, 1.6 KB)
+0021.008 (0) Table PRefOVHWordpressfrm_forms: Total expected rows (via COUNT): 2
+0021.010 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.012 (0) Table PRefOVHWordpressfrm_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3806) in 0.02 seconds
+0021.020 (0) Table PRefOVHWordpressfrm_forms: finishing file(s) (2, 1.3 KB)
+0021.047 (0) Table PRefOVHWordpressfrm_item_metas: Total expected rows (via COUNT): 16
+0021.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.051 (0) Table PRefOVHWordpressfrm_item_metas: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=1792) in 0.02 seconds
+0021.058 (0) Table PRefOVHWordpressfrm_item_metas: finishing file(s) (2, 0.7 KB)
+0021.078 (0) Table PRefOVHWordpressfrm_items: Total expected rows (via COUNT): 4
+0021.080 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.082 (0) Table PRefOVHWordpressfrm_items: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2495) in 0.02 seconds
+0021.087 (0) Table PRefOVHWordpressfrm_items: finishing file(s) (2, 0.8 KB)
+0021.095 (0) Table PRefOVHWordpresstm_taskmeta: Total expected rows (via COUNT): 0
+0021.099 (0) Table PRefOVHWordpresstm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0021.107 (0) Table PRefOVHWordpresstm_taskmeta: finishing file(s) (2, 0.4 KB)
+0021.114 (0) Table PRefOVHWordpresstm_tasks: Total expected rows (via COUNT): 0
+0021.118 (0) Table PRefOVHWordpresstm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=938) in 0.01 seconds
+0021.124 (0) Table PRefOVHWordpresstm_tasks: finishing file(s) (2, 0.4 KB)
+0021.152 (0) Table PRefOVHWordpressyoast_indexable: Total expected rows (via COUNT): 173
+0021.153 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.164 (0) Table PRefOVHWordpressyoast_indexable: Rows added in this batch (next record: 206): 173 (uncompressed bytes in this segment=114328) in 0.04 seconds
+0021.172 (0) Table PRefOVHWordpressyoast_indexable: finishing file(s) (2, 14.2 KB)
+0021.178 (0) Table PRefOVHWordpressyoast_indexable_hierarchy: Total expected rows (approximate): 103
+0021.182 (0) Table PRefOVHWordpressyoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 103 (uncompressed bytes in this segment=2592) in 0.01 seconds
+0021.188 (0) Table PRefOVHWordpressyoast_indexable_hierarchy: finishing file(s) (2, 0.7 KB)
+0021.212 (0) Table PRefOVHWordpressyoast_migrations: Total expected rows (via COUNT): 23
+0021.214 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.218 (0) Table PRefOVHWordpressyoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1353) in 0.03 seconds
+0021.224 (0) Table PRefOVHWordpressyoast_migrations: finishing file(s) (2, 0.6 KB)
+0021.246 (0) Table PRefOVHWordpressyoast_primary_term: Total expected rows (via COUNT): 6
+0021.248 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.250 (0) Table PRefOVHWordpressyoast_primary_term: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1479) in 0.02 seconds
+0021.256 (0) Table PRefOVHWordpressyoast_primary_term: finishing file(s) (2, 0.6 KB)
+0021.276 (0) Table PRefOVHWordpressyoast_seo_links: Total expected rows (via COUNT): 209
+0021.278 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0021.283 (0) Table PRefOVHWordpressyoast_seo_links: Rows added in this batch (next record: 224): 209 (uncompressed bytes in this segment=23506) in 0.02 seconds
+0021.289 (0) Table PRefOVHWordpressyoast_seo_links: finishing file(s) (2, 2.5 KB)
+0021.290 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wordpress/wp-content/updraft/backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz (line 1884, wp-content/plugins/updraftplus/backup.php)
+0021.292 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressoptions.table.tmpr5102.gz (1/50/fopen): adding to final database dump
+0021.297 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressoptions.table.gz (2/50/fopen): adding to final database dump
+0021.298 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressusers.table.tmpr7.gz (3/50/fopen): adding to final database dump
+0021.300 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressusers.table.gz (4/50/fopen): adding to final database dump
+0021.302 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressusermeta.table.tmpr187.gz (5/50/fopen): adding to final database dump
+0021.303 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressusermeta.table.gz (6/50/fopen): adding to final database dump
+0021.305 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresscommentmeta.table.tmpr3.gz (7/50/fopen): adding to final database dump
+0021.306 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresscommentmeta.table.gz (8/50/fopen): adding to final database dump
+0021.308 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresscomments.table.tmpr2.gz (9/50/fopen): adding to final database dump
+0021.309 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresscomments.table.gz (10/50/fopen): adding to final database dump
+0021.310 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_bans.table.tmpr0.gz (11/50/fopen): adding to final database dump
+0021.312 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_bans.table.gz (12/50/fopen): adding to final database dump
+0021.313 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_dashboard_events.table.tmpr107.gz (13/50/fopen): adding to final database dump
+0021.315 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_dashboard_events.table.gz (14/50/fopen): adding to final database dump
+0021.317 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_distributed_storage.table.tmpr0.gz (15/50/fopen): adding to final database dump
+0021.318 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_distributed_storage.table.gz (16/50/fopen): adding to final database dump
+0021.320 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_fingerprints.table.tmpr0.gz (17/50/fopen): adding to final database dump
+0021.321 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_fingerprints.table.gz (18/50/fopen): adding to final database dump
+0021.322 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_geolocation_cache.table.tmpr0.gz (19/50/fopen): adding to final database dump
+0021.324 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_geolocation_cache.table.gz (20/50/fopen): adding to final database dump
+0021.326 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_lockouts.table.tmpr12.gz (21/50/fopen): adding to final database dump
+0021.327 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_lockouts.table.gz (22/50/fopen): adding to final database dump
+0021.329 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_logs.table.tmpr151.gz (23/50/fopen): adding to final database dump
+0021.331 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_logs.table.gz (24/50/fopen): adding to final database dump
+0021.333 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_mutexes.table.tmpr0.gz (25/50/fopen): adding to final database dump
+0021.334 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_mutexes.table.gz (26/50/fopen): adding to final database dump
+0021.336 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_opaque_tokens.table.tmpr1.gz (27/50/fopen): adding to final database dump
+0021.337 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_opaque_tokens.table.gz (28/50/fopen): adding to final database dump
+0021.339 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_temp.table.tmpr145.gz (29/50/fopen): adding to final database dump
+0021.340 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_temp.table.gz (30/50/fopen): adding to final database dump
+0021.341 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_user_groups.table.tmpr1001.gz (31/50/fopen): adding to final database dump
+0021.343 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressitsec_user_groups.table.gz (32/50/fopen): adding to final database dump
+0021.345 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresslinks.table.tmpr0.gz (33/50/fopen): adding to final database dump
+0021.346 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresslinks.table.gz (34/50/fopen): adding to final database dump
+0021.348 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresspostmeta.table.tmpr6596.gz (35/50/fopen): adding to final database dump
+0021.371 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresspostmeta.table.gz (36/50/fopen): adding to final database dump
+0021.373 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressposts.table.tmpr893.gz (37/50/fopen): adding to final database dump
+0021.376 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressposts.table.gz (38/50/fopen): adding to final database dump
+0021.378 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterm_relationships.table.tmpr100001.gz (39/50/fopen): adding to final database dump
+0021.380 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterm_relationships.table.gz (40/50/fopen): adding to final database dump
+0021.381 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterm_taxonomy.table.tmpr38.gz (41/50/fopen): adding to final database dump
+0021.384 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterm_taxonomy.table.gz (42/50/fopen): adding to final database dump
+0021.385 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstermmeta.table.tmpr27.gz (43/50/fopen): adding to final database dump
+0021.387 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstermmeta.table.gz (44/50/fopen): adding to final database dump
+0021.389 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterms.table.tmpr38.gz (45/50/fopen): adding to final database dump
+0021.390 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressterms.table.gz (46/50/fopen): adding to final database dump
+0021.392 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresswps_cleaner.table.tmpr4708.gz (47/50/fopen): adding to final database dump
+0021.394 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresswps_cleaner.table.gz (48/50/fopen): adding to final database dump
+0021.396 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresswps_cleaner_queue.table.tmpr0.gz (49/50/fopen): adding to final database dump
+0021.397 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresswps_cleaner_queue.table.gz (50/50/fopen): adding to final database dump
+0021.399 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaddress_components.table.tmpr0.gz (51/50/fopen): adding to final database dump
+0021.401 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaddress_components.table.gz (52/50/fopen): adding to final database dump
+0021.402 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_debug_log.table.tmpr0.gz (53/50/fopen): adding to final database dump
+0021.404 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_debug_log.table.gz (54/50/fopen): adding to final database dump
+0021.405 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_events.table.tmpr0.gz (55/50/fopen): adding to final database dump
+0021.407 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_events.table.gz (56/50/fopen): adding to final database dump
+0021.408 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_failed_logins.table.tmpr73.gz (57/50/fopen): adding to final database dump
+0021.410 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_failed_logins.table.gz (58/50/fopen): adding to final database dump
+0021.411 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_global_meta.table.tmpr0.gz (59/50/fopen): adding to final database dump
+0021.412 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_global_meta.table.gz (60/50/fopen): adding to final database dump
+0021.414 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_login_activity.table.tmpr34.gz (61/50/fopen): adding to final database dump
+0021.415 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_login_activity.table.gz (62/50/fopen): adding to final database dump
+0021.417 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_login_lockdown.table.tmpr0.gz (63/50/fopen): adding to final database dump
+0021.418 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_login_lockdown.table.gz (64/50/fopen): adding to final database dump
+0021.419 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_permanent_block.table.tmpr0.gz (65/50/fopen): adding to final database dump
+0021.421 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressaiowps_permanent_block.table.gz (66/50/fopen): adding to final database dump
+0021.422 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresse_events.table.tmpr0.gz (67/50/fopen): adding to final database dump
+0021.424 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresse_events.table.gz (68/50/fopen): adding to final database dump
+0021.425 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressere_save_search.table.tmpr0.gz (69/50/fopen): adding to final database dump
+0021.426 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressere_save_search.table.gz (70/50/fopen): adding to final database dump
+0021.428 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_fields.table.tmpr0.gz (71/50/fopen): adding to final database dump
+0021.429 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_fields.table.gz (72/50/fopen): adding to final database dump
+0021.431 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_fields_order.table.tmpr12.gz (73/50/fopen): adding to final database dump
+0021.433 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_fields_order.table.gz (74/50/fopen): adding to final database dump
+0021.434 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_sections.table.tmpr0.gz (75/50/fopen): adding to final database dump
+0021.436 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_sections.table.gz (76/50/fopen): adding to final database dump
+0021.437 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_sections_order.table.tmpr0.gz (77/50/fopen): adding to final database dump
+0021.439 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfbuilder_sections_order.table.gz (78/50/fopen): adding to final database dump
+0021.440 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_fields.table.tmpr10.gz (79/50/fopen): adding to final database dump
+0021.442 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_fields.table.gz (80/50/fopen): adding to final database dump
+0021.443 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_forms.table.tmpr3.gz (81/50/fopen): adding to final database dump
+0021.444 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_forms.table.gz (82/50/fopen): adding to final database dump
+0021.446 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_item_metas.table.tmpr17.gz (83/50/fopen): adding to final database dump
+0021.447 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_item_metas.table.gz (84/50/fopen): adding to final database dump
+0021.449 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_items.table.tmpr5.gz (85/50/fopen): adding to final database dump
+0021.450 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressfrm_items.table.gz (86/50/fopen): adding to final database dump
+0021.452 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstm_taskmeta.table.tmpr0.gz (87/50/fopen): adding to final database dump
+0021.453 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstm_taskmeta.table.gz (88/50/fopen): adding to final database dump
+0021.455 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstm_tasks.table.tmpr0.gz (89/50/fopen): adding to final database dump
+0021.456 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpresstm_tasks.table.gz (90/50/fopen): adding to final database dump
+0021.458 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_indexable.table.tmpr207.gz (91/50/fopen): adding to final database dump
+0021.459 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_indexable.table.gz (92/50/fopen): adding to final database dump
+0021.461 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_indexable_hierarchy.table.tmpr1001.gz (93/50/fopen): adding to final database dump
+0021.462 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_indexable_hierarchy.table.gz (94/50/fopen): adding to final database dump
+0021.464 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_migrations.table.tmpr24.gz (95/50/fopen): adding to final database dump
+0021.465 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_migrations.table.gz (96/50/fopen): adding to final database dump
+0021.466 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_primary_term.table.tmpr7.gz (97/50/fopen): adding to final database dump
+0021.468 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_primary_term.table.gz (98/50/fopen): adding to final database dump
+0021.469 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_seo_links.table.tmpr225.gz (99/50/fopen): adding to final database dump
+0021.472 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db-table-PRefOVHWordpressyoast_seo_links.table.gz (100/50/fopen): adding to final database dump
+0021.477 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz: finished writing out complete database file (2418.9 KB)
+0021.516 (0) Total database tables backed up: 50 (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz, size: 2477057, sha1: 830ad2f6fcbe24634af4d591301644be0ade898f, sha256: c4555311537ede3b46dea652ee3cea9e960303cacbc411768ed563faf978de36)
+0021.526 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0021.528 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.529 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0021.531 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0021.532 (0) backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.534 (0) Saving backup history. Total backup size: 113.1 MB
+0021.538 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0021.544 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0021.545 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-e1c7342aed9be733987c4e773a4a2cca)
+0023.832 (0) Google Drive: quota usage: used=601.6 MB, total=15360 MB, available=14758.4 MB
+0023.835 (0) Google Drive: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0024.241 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.1 / 46)
+0024.412 (0) Googledrive chunked upload: 5.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.1 / 46)
+0024.640 (0) Googledrive chunked upload: 12.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 25.1 / 46)
+0025.065 (0) Googledrive chunked upload: 27.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 25.1 / 46)
+0025.744 (0) Googledrive chunked upload: 57.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 25.1 / 46)
+0027.663 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0027.669 (0) Google Drive: OK: Archive backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip uploaded in 3.83 seconds
+0027.671 (0) Recording as successfully uploaded: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip
+0027.684 (0) Deleting local file: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip: OK
+0027.687 (0) Deleting zip manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-plugins.zip.list.tmp)
+0028.010 (0) Google Drive: quota usage: used=655.9 MB, total=15360 MB, available=14704.1 MB
+0028.012 (0) Google Drive: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0028.400 (0) Googledrive chunked upload: 15.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.1 / 46)
+0028.549 (0) Googledrive chunked upload: 45.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.1 / 46)
+0029.539 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0029.545 (0) Google Drive: OK: Archive backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip uploaded in 1.53 seconds
+0029.546 (0) Recording as successfully uploaded: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip
+0029.551 (0) Deleting local file: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip: OK
+0029.553 (0) Deleting zip manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-themes.zip.list.tmp)
+0029.769 (0) Google Drive: quota usage: used=655.9 MB, total=15360 MB, available=14704.1 MB
+0029.772 (0) Google Drive: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0030.300 (0) Googledrive chunked upload: 2.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.1 / 46)
+0030.448 (0) Googledrive chunked upload: 6.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 25.1 / 46)
+0030.662 (0) Googledrive chunked upload: 14.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 25.1 / 46)
+0031.032 (0) Googledrive chunked upload: 31.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 25.1 / 46)
+0031.680 (0) Googledrive chunked upload: 64.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 25.1 / 46)
+0033.237 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0033.242 (0) Google Drive: OK: Archive backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip uploaded in 3.47 seconds
+0033.244 (0) Recording as successfully uploaded: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip
+0033.255 (0) Deleting local file: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip: OK
+0033.258 (0) Deleting zip manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-uploads.zip.list.tmp)
+0033.698 (0) Google Drive: quota usage: used=710.6 MB, total=15360 MB, available=14649.4 MB
+0033.701 (0) Google Drive: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0034.159 (0) Googledrive chunked upload: 55.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.1 / 46)
+0035.571 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0035.577 (0) Google Drive: OK: Archive backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip uploaded in 1.87 seconds
+0035.578 (0) Recording as successfully uploaded: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip
+0035.582 (0) Deleting local file: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip: OK
+0035.584 (0) Deleting zip manifest (backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-others.zip.list.tmp)
+0035.835 (0) Google Drive: quota usage: used=710.6 MB, total=15360 MB, available=14649.4 MB
+0035.837 (0) Google Drive: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz: Attempting to upload to Google Drive (into folder id: 1nd_hmjHSK7-h23ShwBPhgnQQzL0r9U4S)
+0036.220 (0) Googledrive chunked upload: 42.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 25.1 / 46)
+0037.329 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0037.335 (0) Google Drive: OK: Archive backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz uploaded in 1.5 seconds
+0037.336 (0) Recording as successfully uploaded: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz
+0037.340 (0) Deleting local file: backup_2022-05-31-0656_ChaletsetCaviar_2728605e78d3-db.gz: OK
+0037.345 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0037.347 (0) Number of backup sets in history: 5; groups (db): 1
+0037.348 (0) Examining (for databases) backup set with group_id=0, nonce=2728605e78d3, datestamp=1653972982 (May 31 2022 04:56:22)
+0037.350 (0) This backup set is the backup set just made, so will not be deleted.
+0037.350 (0) Examining (for databases) backup set with group_id=0, nonce=1afc19f8e58a, datestamp=1653888236 (May 30 2022 05:23:56)
+0037.350 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.351 (0) Examining (for databases) backup set with group_id=0, nonce=0f3268efbfa9, datestamp=1653800897 (May 29 2022 05:08:17)
+0037.351 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.351 (0) Examining (for databases) backup set with group_id=0, nonce=c7c9bb775be0, datestamp=1653718689 (May 28 2022 06:18:09)
+0037.351 (0) 1653718689: db: this set includes a database (backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-db.gz); db count is now 3
+0037.351 (0) 1653718689: db: over retain limit (3); will delete this database
+0037.351 (0) Delete file: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-db.gz, service=googledrive
+0038.546 (0) Google Drive: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-db.gz: Deletion successful
+0038.553 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0038.555 (0) Examining (for databases) backup set with group_id=0, nonce=012514ecb544, datestamp=1651762369 (May 05 2022 14:52:49)
+0038.555 (0) This backup set (1651762369) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0038.555 (0) Number of backup sets in history: 5; groups (files): 1
+0038.559 (0) Examining (for files) backup set with nonce=2728605e78d3, datestamp=1653972982 (May 31 2022 04:56:22)
+0038.559 (0) This backup set is the backup set just made, so will not be deleted.
+0038.562 (0) This backup set is the backup set just made, so will not be deleted.
+0038.562 (0) This backup set is the backup set just made, so will not be deleted.
+0038.562 (0) This backup set is the backup set just made, so will not be deleted.
+0038.562 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.565 (0) Examining (for files) backup set with nonce=1afc19f8e58a, datestamp=1653888236 (May 30 2022 05:23:56)
+0038.565 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.565 (0) Examining (for files) backup set with nonce=0f3268efbfa9, datestamp=1653800897 (May 29 2022 05:08:17)
+0038.565 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.566 (0) Examining (for files) backup set with nonce=c7c9bb775be0, datestamp=1653718689 (May 28 2022 06:18:09)
+0038.566 (0) plugins: over retain limit (3); will delete this file entity
+0038.566 (0) themes: over retain limit (3); will delete this file entity
+0038.566 (0) uploads: over retain limit (3); will delete this file entity
+0038.566 (0) others: over retain limit (3); will delete this file entity
+0038.566 (0) Delete file: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-plugins.zip, service=googledrive
+0038.568 (0) Delete file: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-themes.zip, service=googledrive
+0038.570 (0) Delete file: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-uploads.zip, service=googledrive
+0038.573 (0) Delete file: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-others.zip, service=googledrive
+0039.503 (0) Google Drive: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-others.zip: Deletion successful
+0039.931 (0) Google Drive: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-uploads.zip: Deletion successful
+0040.531 (0) Google Drive: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-themes.zip: Deletion successful
+0041.123 (0) Google Drive: backup_2022-05-28-0818_ChaletsetCaviar_c7c9bb775be0-plugins.zip: Deletion successful
+0041.128 (0) This backup set is now empty; will remove from history
+0041.130 (0) Deleting log file (log.c7c9bb775be0.txt)
+0041.131 (0) Examining (for files) backup set with nonce=012514ecb544, datestamp=1651762369 (May 05 2022 14:52:49)
+0041.131 (0) This backup set (1651762369) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0041.131 (0) This backup set (1651762369) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0041.131 (0) This backup set (1651762369) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0041.131 (0) This backup set (1651762369) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0041.131 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.133 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0041.140 (0) Resume backup (2728605e78d3, 0): finish run
+0041.144 (0) Decremented the semaphore (fd) by 1
+0041.147 (0) Semaphore (fd) unlocked
+0041.148 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0041.155 (0) The backup apparently succeeded and is now complete
+0041.156 (0) No email will/can be sent - the user has not configured an email address.
+0041.158 (0) La sauvegarde a apparemment réussi et est maintenant terminée
